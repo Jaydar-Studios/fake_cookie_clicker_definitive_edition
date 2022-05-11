@@ -15,4 +15,5 @@
   <li>This is not a straight decompilation, rather, the code is split up into different files and folders.</li>
   <li type = "circle">There will be "README"s attached to each folder, which will explain info about them, and the files contained inside them.</li>
   <li>Like I said, there might be formatting errors and inconsistentcies, because I'm pretty new to GitHub.</li>
+  <li>This only documents the code shown in Khan Academy's JS Editor, not the code in the Khan Academy ProcessingJS Environment itself.</li>
 </ul>
