@@ -1,4 +1,4 @@
-<h1>README.md</h1>
+<h1>main-code</h1>
 <p>The "main-code" folder is one of most important of them all, as it contains all of the juicy code you're probably looking for.</p>
 <br>
 <h2>What's what?</h2>
