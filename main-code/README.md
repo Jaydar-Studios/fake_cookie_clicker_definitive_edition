@@ -5,8 +5,8 @@
 <ul>
   <li>For the variables and important things used later in the code, check "variables-and-stuff"</li>
   <li>For the first half or so of the cool code, check "where-the-magic-happens"</li>
+  <li>For the achievements, check "gold-stars"</li>
   <!--
-  <li>Reserved for files that are coming later</li>
   <li>Reserved for files that are coming later</li>
   --->
 </ul>
