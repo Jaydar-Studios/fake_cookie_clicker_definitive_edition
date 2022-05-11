@@ -8,7 +8,7 @@ I'm kind of new to GitHub, so please forgive any formatting mistakes, thanks!
 <br>The project's origins start from when I was at school and decided to make my own version of the (slightly-) popular webgame, Cookie Clicker. I called this rip-off "Fake Cookie Clicker"
 <br>Several months later, I decided to learn ProcessingJS, so I said: "What am I doing? Clearly I should be making FCC in JS!"
 <br><em>And then I did. I made it.</em>
-<br><strong>And the rest is history.</strong></p>
+  <br>And the rest is history.</p>
 
 <h1>Notes</h1>
 <ul>
