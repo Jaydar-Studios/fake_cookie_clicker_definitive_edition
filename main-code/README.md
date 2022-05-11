@@ -7,7 +7,5 @@
   <li>For the first half or so of the cool code, check "where-the-magic-happens"</li>
   <li>For the achievements, check "gold-stars"</li>
   <li>For the stats screen, check "much-stats_very-wow"</li>
-  <!--
-  <li>Reserved for files that are coming later</li>
-  --->
+  <li>For the upgrades, check "moving-up-in-the-world"</li>
 </ul>
