@@ -169,7 +169,7 @@ var gameFunctions = {
                     snd2.audio.playbackRate = 0.5;
                     playSound(snd2);
                 };
-                sndPly();
+                sndPly(); 
                 Achieves.push("\nRotten Dough (Shadow Achievement)");
             }
             if (ruinTxt === true) {
