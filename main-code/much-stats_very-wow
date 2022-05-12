@@ -13,4 +13,4 @@
             text(allTimeCookies + " cookie(s) baked (all time)", statX + 10, statY + 97); //all time cookie(s)
             text("CpS: " + CpS, statX + 10, statY + 118);  //CpS
             text("Buildings: " + buildings, statX + 10, statY + 139); //buildings
-            text("Achievements (" + Achieves.length + "/" + (Object.keys(Achieved).length - 1) + "): " + Achieves, statX + 10, statY + 160); //I use all of these .length functions so that I can easily track how many Achievements you have to how many total are in the game. Also thanks to KA user "Kopter Coding" for the help with the total achievement count (with the Object.keys() part.)
+            text("Achievements (" + Achieves.length + "/" + (Object.keys(Achieved).length - 1) + "): " + Achieves, statX + 10, statY + 160); //I use all of these .length functions so that I can easily track how many Achievements you have to how many total are in the game. Also thanks to KA user "Kopter Coding" for the help with the total achievement count (with the Object.keys() part.) 
