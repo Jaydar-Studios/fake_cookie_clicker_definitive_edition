@@ -3,7 +3,7 @@
 //this sets the fps cap to 30 (like in OG cookie clicker)
 var fpsCap = 30;
 
-//variables for the cookie's location
+//variables for the cookie's location 
 var cookieSize = 135;
 var cookieX = 70;
 var cookieY = 300;
