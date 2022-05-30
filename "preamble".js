@@ -6,7 +6,7 @@
             |  *   *  |
             |    *    |
              \_______/ 
-         
+        
         __     ___           __        
        |      /   \    |  / |            
        |__   /     \   | /  |__          
@@ -16,7 +16,7 @@
         __   ___    ___         __ __    __
        |    |   |  |   |  |  /    |     |
        |    |   |  |   |  | /     |     |__
-       |    |   |  |   |  | \     |     | 
+       |    |   |  |   |  | \     |     |
        |__  |___|  |___|  |  \  __|__   |__
        
         __         __ __   __          __    __
@@ -32,6 +32,10 @@
 */   
 /**
     PATCH NOTES:
+    
+        V0.00054 (Gigantamax Evolve-able Grandmas): I added an upgrade for the Grandma.
+    
+        V0.000532 (Futureproofing Update): As I'm worried of not being able to see all of the achievements, a way to see them all was added, for futureproofing.
     
         V0.000531 (Summer(-ish) Cleaning Update): Cleaned up a bit of code, more specifically, adding some sub-objects into the GameFunctions object, moving some functions into the same object, and making the first ever officially-named update! (also edited the patch notes for the previous update.)
     

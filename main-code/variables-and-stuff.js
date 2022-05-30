@@ -3,7 +3,7 @@
 //this sets the fps cap to 30 (like in OG cookie clicker)
 var fpsCap = 30;
 
-//variables for the cookie's location 
+//variables for the cookie's location
 var cookieSize = 135;
 var cookieX = 70;
 var cookieY = 300;
@@ -128,6 +128,21 @@ var crsrUpHBX2 = crsrUpHBX1 + 84;
 var crsrUpHBY1 = clickY;
 var crsrUpHBY2 = crsrUpHBY1 + 101;
 
+//tracks the upgrade level of the grandma
+var gmaLvl = 1;
+
+var gmaUpX = clickX - 25;
+var gmaUpY = clickY + 420;
+
+//grandma upgrade hitbox
+var gmaUpHBX1 = gmaUpX;
+var gmaUpHBX2 = gmaUpHBX1 + 79;
+var gmaUpHBY1 = gmaUpY;
+var gmaUpHBY2 = gmaUpHBY1 + 81;
+
+var gmaUpPrice = 500;
+
+
 //Building count
 var buildings = 0;
 
@@ -169,7 +184,7 @@ var gameFunctions = {
                     snd2.audio.playbackRate = 0.5;
                     playSound(snd2);
                 };
-                sndPly(); 
+                sndPly();
                 Achieves.push("\nRotten Dough (Shadow Achievement)");
             }
             if (ruinTxt === true) {
@@ -206,7 +221,6 @@ var gameFunctions = {
             gameFunctions.inGameStuff.Rot_The_Dough(true);
             allTimeCookies = cookies;
         }
-        
     },
     
     other: {
