@@ -1,4 +1,5 @@
-//cookie click upgrade icon code
+            
+            //cookie click upgrade icon code
             //the box around the upgrade's icon
             fill(117, 61, 6);
             stroke(26, 18, 0);
@@ -58,6 +59,34 @@
                         crsrLvl *= 2;
                         cookies -= crsrUpPrice;
                         crsrUpPrice *= 10;
+                        
+                    }
+                }
+            }
+            if (gMas >= 1) {
+                
+                fill(117, 61, 6);
+                stroke(26, 18, 0);
+                strokeWeight(4);
+                rect(gmaUpX, gmaUpY, 79, 81);
+            
+                strokeWeight(1);
+                drawGMa(clickX + 15, clickY + 460, 44, 232, 242);
+                if (mouseX >= gmaUpHBX1 && mouseX <= gmaUpHBX2 && mouseY >= gmaUpHBY1 && mouseY <= gmaUpHBY2) {
+                    //info about the upgrade
+                    fill(117, 61, 6);
+                    stroke(26, 18, 0);
+                    strokeWeight(4);
+                    rect(gmaUpX, gmaUpY - 98, 84, 93);
+                    fill(255, 255, 255);
+                    text("Grandma upgrade", gmaUpX, gmaUpY - 88);
+                    text("Grandma upgrade", gmaUpX, gmaUpY - 88);
+                    text("This makes \ngrandmas 2X \nas effective.", gmaUpX, gmaUpY - 72.5);
+                    text(gmaUpPrice + "\ncookies to buy", gmaUpX, gmaUpY - 23.3);
+                    if (cookies >= gmaUpPrice && mouseIsPressed) {
+                        gmaLvl *= 2;
+                        cookies -= gmaUpPrice;
+                        gmaUpPrice *= 10;
                         
                     }
                 }
