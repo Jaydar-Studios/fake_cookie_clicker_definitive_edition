@@ -143,3 +143,7 @@ var draw = function() {
             } else {
                 CrsrTime += (1 / fpsCap);
             }
+            
+            if (keyIsPressed && key.code === 32) {
+                println("---\nALL ACHIEVEMENTS:\n" + Achieves + "\n---");
+            }
